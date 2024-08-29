@@ -1,0 +1,18 @@
+body {
+    background-color: #787171;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+.form-group {
+    margin-bottom: 10px;
+}
+.input {
+    width: 40%;
+    padding: 10px;
+    border-radius: 1px solid #f1f1f1;
+    
+}

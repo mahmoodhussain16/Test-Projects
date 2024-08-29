@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>portfoliomanage</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Manage Portfolio projects</h1>
+        <div class="input">
+            <input type="text" id="projectTitle" placeholder="Project Title">
+        </div>
+        <div class="input">
+            <input type="text" id="projectDescription" placeholder="project Description">
+        </div>
+        <div class="input">
+            <input type="text" id="projectURL" placeholder="Live URL">
+        </div>
+        <button id="addProjectBtn">Add Project</button>
+        <div id="projectData"></div>
+    </div>
+
+    <div id="deleteModal">
+        <p>Are you sure you want to delete this Task?</p>
+        <button id="DeleteBtn">Delete</button>
+        <button id="cancelDeleteBtn">Cancel</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
